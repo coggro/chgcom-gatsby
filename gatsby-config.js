@@ -1,6 +1,9 @@
 export default {
   siteMetadata: {
-    title: 'CoreyHGross.com',
+    title: `CoreyHGross.com`,
+    siteUrl: `https://www.coreyhgross.com`,
+    description: `A web developer in the Greater Philadelphia Area`,
+    twitter: '@coggro',
   },
   plugins: [
     'gatsby-plugin-styled-components',
