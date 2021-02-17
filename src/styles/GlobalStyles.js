@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { Responsive } from './Responsive'
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -23,20 +24,20 @@ const GlobalStyles = createGlobalStyle`
     padding: 0 1rem;
     width: 100%;
     max-width: 100%;
-    @media (min-width: 576px) {
+    @media (${Responsive.device.sm}) {
       max-width: 540px;
       padding: 0;
     }
-    @media (min-width: 768px) {
+    @media (${Responsive.device.md}) {
       max-width: 720px;
     }
-    @media (min-width: 992px) {
+    @media (${Responsive.device.lg}) {
       max-width: 960px;
     }
-    @media (min-width: 1200px) {
+    @media (${Responsive.device.xl}) {
       max-width: 1140px;
     }
-    @media (min-width: 1400px) {
+    @media (${Responsive.device.xxl}) {
       max-width: 1320px;
     }
     .container-fluid {

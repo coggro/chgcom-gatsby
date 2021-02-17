@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
+import { Responsive } from '../styles/Responsive'
+
 import { FaGithub } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -13,8 +15,13 @@ const HeaderStyles = styled.header`
 
   .navbar {
     display: flex;
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    @media ${Responsive.device.sm} {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
 
     a {
       color: var(--white);
