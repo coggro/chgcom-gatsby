@@ -8,19 +8,27 @@ const IndexPage = () => {
       <SEO title={`Home`} />
       <section>
         <div className="container">
-          <h1>I'm Corey Gross.</h1>
-          <h2>I'm a web developer, and this is my site.</h2>
-          <p>
-            I'm living in the Greater Philadelphia Area with my wife and our
-            dog. I like tabletop and video games, cooking, and reading. If you
-            want to know more about me, try my <Link to={`/about`}>About</Link>{' '}
-            page.
-          </p>
-          <p>
-            I'm trying out a more minimalist site, especially for an MVP. My
-            site needed a reboot, so I decided to get something up quick with
-            Gatsby.
-          </p>
+          <div className="page">
+            <h1>I'm Corey Gross.</h1>
+            <h2>I'm a web developer, and this is my site.</h2>
+            <p>
+              I'm living in the Greater Philadelphia Area with my wife and our
+              dog. I like tabletop and video games, cooking, and reading. If you
+              want to know more about me, try my{' '}
+              <Link to={`/about`}>About</Link> page.
+            </p>
+            <p>
+              I'm trying out a more minimalist site, especially for an MVP. My
+              site needed a reboot, so I decided to get something up quick with
+              Gatsby.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              saepe dolore rerum, possimus amet maiores ad! Quibusdam velit odit
+              corrupti commodi excepturi aperiam assumenda earum provident
+              tempora, unde aliquid perferendis?
+            </p>
+          </div>
         </div>
       </section>
     </>

@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fa'
 
 const HeaderStyles = styled.header`
-  background: var(--blue);
+  background: var(--red);
   color: var(--white);
   font-size: 1.8rem;
   width: 100%;
@@ -98,6 +98,7 @@ const HeaderStyles = styled.header`
 
       a {
         margin-bottom: 0;
+        padding-bottom: 0;
       }
 
       nav {
@@ -133,7 +134,7 @@ export default function Header() {
           </div>
           <nav className={`${headerOpen ? 'open' : ``}`}>
             <Link to={`/about`}>About</Link>
-            <Link to={`/resume`}>Résumé</Link>
+            <Link to={`/resume`}>Resume</Link>
             <Link to={`/uses`}>Uses</Link>
             <div className={`icons`}>
               <a

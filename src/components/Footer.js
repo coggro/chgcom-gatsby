@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Responsive } from '../styles/Responsive'
 
 const FooterStyles = styled.footer`
-  background-color: var(--blue);
+  background-color: var(--red);
   box-sizing: border-box;
   color: var(--white);
   padding: 2rem 0;
@@ -16,6 +16,7 @@ const FooterStyles = styled.footer`
       display: flex;
       flex: 1;
       justify-content: center;
+      margin: 0;
     }
     @media (${Responsive.device.sm}) {
       flex-direction: row;

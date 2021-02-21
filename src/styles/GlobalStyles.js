@@ -1,15 +1,19 @@
 import { createGlobalStyle } from 'styled-components'
 import { Responsive } from './Responsive'
+import bg from '../assets/images/backgrounds/pb-tiling-dark.jpg'
 
 const GlobalStyles = createGlobalStyle`
   :root {
     --black: #2E2E2E;
     --blue: #001e9d;
     --darkgrey: #4E4E4E;
-    --white: #fff;
+    --darkred: #58170d;
     --grey: #cfcfcf;
+    --red: #9d0a0e;
+    --white: #fff;
   }
   html{
+    background: #555;
     overflow-y: scroll;
   }
   body #___gatsby #gatsby-focus-wrapper {
@@ -47,6 +51,14 @@ const GlobalStyles = createGlobalStyle`
     .container-fluid {
       width: 100%;
     }
+  }
+  .page {
+    background-image: url(${bg});
+    columns: 1;
+    padding: 2.5rem 4rem;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    height: auto;    
   }
 `
 
