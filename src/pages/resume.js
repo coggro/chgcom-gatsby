@@ -16,7 +16,7 @@ const ResumePage = () => {
             <a
               href="https://www.github.com/coggro/resume"
               target="_blank"
-              rel="noopener nofollower"
+              rel="noopener noreferrer"
             >
               GitHub.
             </a>

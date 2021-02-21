@@ -1,6 +1,5 @@
 import React from 'react'
 import SEO from '../components/SEO'
-import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 
 const IndexPage = () => {

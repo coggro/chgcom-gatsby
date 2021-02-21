@@ -34,7 +34,13 @@ const UsesPage = () => {
           <ul>
             <li>Personal Laptop - MacBook Pro (Mid 2014)</li>
             <li>Personal Desktop - Custom PC (Built Late 2016) </li>
-            <li>Professional Laptop - MacBook Pro (Much Newer 😅)</li>
+            <li>
+              Professional Laptop - MacBook Pro (Much Newer{' '}
+              <span role="img" aria-label="sweat smile emoji">
+                😅
+              </span>
+              )
+            </li>
           </ul>
           <h2>Assorted Hardware</h2>
           <ul>
