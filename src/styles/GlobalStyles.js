@@ -58,7 +58,7 @@ const GlobalStyles = createGlobalStyle`
     background-image: url(${bg});
     box-shadow: 1rem 1rem 1rem var(--black);
     columns: 1;
-    padding: 2.5rem 4rem;
+    padding: 2.5rem 4rem 4rem;
     margin-top: 2rem;
     border-radius: 0.2rem;
     height: auto;    

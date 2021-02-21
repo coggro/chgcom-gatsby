@@ -7,11 +7,11 @@ const size = {
 }
 
 const device = {
-  sm: `(min-width: ${size.sm})`,
-  md: `(min-width: ${size.md})`,
-  lg: `(min-width: ${size.lg})`,
-  xl: `(min-width: ${size.xl})`,
-  xxl: `(min-width: ${size.xxl})`,
+  sm: `min-width: ${size.sm}`,
+  md: `min-width: ${size.md}`,
+  lg: `min-width: ${size.lg}`,
+  xl: `min-width: ${size.xl}`,
+  xxl: `min-width: ${size.xxl}`,
 }
 
 export const Responsive = { size, device }
