@@ -11,7 +11,7 @@ const Typography = createGlobalStyle`
     src: url(${crazyTomeFont});
   }
   html {
-    color: var(--black);
+    color: var(--fontblack);
     font-family: CrazyTome, Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
   }
@@ -29,11 +29,11 @@ const Typography = createGlobalStyle`
   }
   h2 {
     font-size: 2rem;
-    border-bottom: 2px solid #c9ad6a;
+    border-bottom: 2px solid var(--gold);
   }
   h3 {
     font-size: 1.6rem;
-    border-bottom: 2px solid #c9ad6a;
+    border-bottom: 2px solid var(--gold);
   }
   ul {
     padding-left: 1.5rem;
@@ -45,20 +45,23 @@ const Typography = createGlobalStyle`
     line-height: 2.2rem;
   }
   a {
-    color: var(--black);
+    color: var(--fontblack);
     text-decoration: none;
 
     &:hover {
       color: var(--darkgrey);
       text-decoration: underline;
+      text-decoration-color: var(--red);
     }
 
     &.always-under {
       text-decoration: underline;
+      text-decoration-color: var(--red);
     }
   }
   main a {
     text-decoration: underline;
+    text-decoration-color: var(--red);
   }
   p {
     margin: 0;

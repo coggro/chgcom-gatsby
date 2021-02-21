@@ -60,7 +60,7 @@ const UsesPage = () => {
               <li>Adobe Experience Manager 6.5</li>
               <li>React w/ Create-React-App or Gatsby.js</li>
             </ul>
-            <h2>Font</h2>
+            <h2>Dev Font</h2>
             <ul>
               <li>Jetbrains Mono</li>
             </ul>
@@ -85,6 +85,18 @@ const UsesPage = () => {
                   Advanced, Sega Genesis, and loads of other games.
                 </li>
               </ul>
+            </ul>
+            <h2>This Site</h2>
+            <ul>
+              <li>React via Gatsby.js</li>
+              <li>
+                Style help from /r/UnearthedArcana in the form of free fonts and
+                color references.
+              </li>
+              <li>
+                Utilized container widths and responsive breakpoints from
+                Bootstrap
+              </li>
             </ul>
           </div>
         </div>

@@ -4,16 +4,18 @@ import bg from '../assets/images/backgrounds/pb-tiling-dark.jpg'
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --black: #2E2E2E;
+    --black: #000;
     --blue: #001e9d;
     --darkgrey: #4E4E4E;
     --darkred: #58170d;
+    --fontblack: #2E2E2E;
+    --gold: #c9ad6a;
     --grey: #cfcfcf;
     --red: #9d0a0e;
     --white: #fff;
   }
   html{
-    background: #555;
+    background: var(--fontblack);
     overflow-y: scroll;
   }
   body #___gatsby #gatsby-focus-wrapper {
@@ -54,6 +56,7 @@ const GlobalStyles = createGlobalStyle`
   }
   .page {
     background-image: url(${bg});
+    box-shadow: 1rem 1rem 1rem var(--black);
     columns: 1;
     padding: 2.5rem 4rem;
     margin-top: 2rem;

@@ -70,10 +70,6 @@ const HeaderStyles = styled.header`
 
         .icon {
           margin-left: 0.75rem;
-
-          &:first-child {
-            margin-left: 0;
-          }
         }
       }
     }
@@ -112,7 +108,11 @@ const HeaderStyles = styled.header`
         }
 
         .icons {
-          margin-left: 2rem;
+          margin-left: 0;
+
+          .icon {
+            margin-left: 2rem;
+          }
         }
       }
     }

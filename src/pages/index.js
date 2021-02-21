@@ -22,12 +22,6 @@ const IndexPage = () => {
               site needed a reboot, so I decided to get something up quick with
               Gatsby.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              saepe dolore rerum, possimus amet maiores ad! Quibusdam velit odit
-              corrupti commodi excepturi aperiam assumenda earum provident
-              tempora, unde aliquid perferendis?
-            </p>
           </div>
         </div>
       </section>
