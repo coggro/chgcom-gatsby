@@ -33,6 +33,13 @@ const FooterStyles = styled.footer`
 
   a {
     color: var(--white);
+    text-decoration: underline;
+    text-decoration-color: var(--white);
+
+    &:hover {
+      color: var(--grey);
+      text-decoration-color: var(--grey);
+    }
   }
 `
 

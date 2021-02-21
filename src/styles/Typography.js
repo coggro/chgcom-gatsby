@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
-import sirBranchesFont from '../assets/fonts/sirbranches-headers/sirbranches-small-caps.woff'
-import crazyTomeFont from '../assets/fonts/crazytome-body/crazytome.woff'
+import sirBranchesFont from '../assets/fonts/ddfonts/sirbranches-Small-Caps.woff'
+import crazyTomeFont from '../assets/fonts/ddfonts/crazytome.woff'
 const Typography = createGlobalStyle`
   @font-face {
     font-family: SirBranches;
