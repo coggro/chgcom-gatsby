@@ -5,10 +5,12 @@ const Typography = createGlobalStyle`
   @font-face {
     font-family: SirBranches;
     src: url(${sirBranchesFont});
+    font-display: swap;
   }
   @font-face {
     font-family: CrazyTome;
     src: url(${crazyTomeFont});
+    font-display: swap;
   }
   html {
     color: var(--fontblack);
@@ -71,6 +73,9 @@ const Typography = createGlobalStyle`
   }
   .text-center {
     text-align: center;
+  }
+  .visually-hidden {
+    display: none;
   }
 `
 

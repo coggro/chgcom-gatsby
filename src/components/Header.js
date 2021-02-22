@@ -128,7 +128,10 @@ export default function Header() {
         <div className="navbar container">
           <div className="logo">
             <Link to={`/`}>CoreyHGross.com</Link>
-            <button onClick={() => setHeaderOpen(!headerOpen)}>
+            <button
+              onClick={() => setHeaderOpen(!headerOpen)}
+              aria-label="navbar-toggle"
+            >
               {headerOpen ? <FaTimes /> : <FaBars />}
             </button>
           </div>
@@ -142,24 +145,27 @@ export default function Header() {
                 href="https://www.twitter.com/coggro"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Twitter"
               >
-                <FaTwitter />
+                <FaTwitter aria-hidden="true" />
               </a>
               <a
                 href="https://www.linkedin.com/in/coreyhgross"
                 className="icon"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
-                <FaLinkedin />
+                <FaLinkedin aria-hidden="true" />
               </a>
               <a
                 href="https://www.github.com/coggro"
                 className="icon"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
-                <FaGithub />
+                <FaGithub aria-hidden="true" />
               </a>
             </div>
           </nav>

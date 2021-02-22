@@ -25,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
 
     main {
       flex: 1;
-      padding-bottom: 4.8rem;
+      padding: 4rem 0;
     }
   }
   .container {
@@ -59,7 +59,6 @@ const GlobalStyles = createGlobalStyle`
     box-shadow: 1rem 1rem 1rem var(--black);
     columns: 1;
     padding: 2.5rem 4rem 4rem;
-    margin-top: 2rem;
     border-radius: 0.2rem;
     height: auto;    
   }
