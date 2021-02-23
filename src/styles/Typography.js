@@ -67,9 +67,10 @@ const Typography = createGlobalStyle`
   }
   p {
     margin: 0;
-    &:not(:first-of-type) {
-      text-indent: 2.4rem;
-    }
+  }
+  p,
+  ul {
+    margin: 0 0 0.8rem 0;
   }
   .text-center {
     text-align: center;
