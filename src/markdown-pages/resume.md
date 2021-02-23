@@ -1,10 +1,10 @@
 ---
 slug: '/resume'
 date: '2021-02-17'
-title: 'Résumé'
+title: 'Resume'
 ---
 
-# Corey H Gross - Front-End Web Developer
+## Corey H Gross - Front-End Web Developer
 
 <br />
 
@@ -182,6 +182,14 @@ Video Games (PC, PS4, Switch)
 
 ## Fun Facts
 
-- I was once on stage crew for our high school's musical in 8th grade and a steel pole holding a stage curtain fell and grazed me on the ear. A few inches over and I would have been eating from a straw for the rest of my life, according to the doctor. I later played Reverend Shaw in Footloose and Professor Harold Hill in The Music Man on the same stage.
-- My wife and I have a goldendoodle named August Adventure Gross-Lewin, CGC. "Adventure" is **literally** his middle name. The CGC stands for "Canine Good Citizen," an obedience certification he achieved through the American Kennel Club. He has his own Instagram account - [@augustadventuredog](https://www.instagram.com/augustadventuredog/). We're fully obnoxious about him. He makes an excellent office dog - _wink, wink_.
-- Prior to COVID, I could handle a handful of recipes; over the course of the pandemic, I've been making loads of recipes from The Food Lab and Bravetart and learning loads of additional cooking techniques. I can make some pretty great food now - sous vide cheeseburgers, homemade marshmallows, the best snickerdoodles I've ever eaten, and more. Next up is fresh, homemade bread.
+<ul class="notop">
+<li>
+I was once on stage crew for our high school's musical in 8th grade and a steel pole holding a stage curtain fell and grazed me on the ear. A few inches over and I would have been eating from a straw for the rest of my life, according to the doctor. I later played Reverend Shaw in Footloose and Professor Harold Hill in The Music Man on the same stage.
+</li> 
+<li>
+My wife and I have a goldendoodle named August Adventure Gross-Lewin, CGC. "Adventure" is **literally** his middle name. The CGC stands for "Canine Good Citizen," an obedience certification he achieved through the American Kennel Club. He has his own Instagram account - [@augustadventuredog](https://www.instagram.com/augustadventuredog/). We're fully obnoxious about him. He makes an excellent office dog - _wink, wink_.
+</li>
+<li>
+Prior to COVID, I could handle a handful of recipes; over the course of the pandemic, I've been making loads of recipes from The Food Lab and Bravetart and learning loads of additional cooking techniques. I can make some pretty great food now - sous vide cheeseburgers, homemade marshmallows, the best snickerdoodles I've ever eaten, and more. Next up is fresh, homemade bread.
+</li>
+</ul>

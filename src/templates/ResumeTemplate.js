@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const ResumeStyles = styled.div`
   h2 {
-    border-bottom: 3px solid var(--black);
+    margin-bottom: 0.8rem;
 
     &.bottomless {
       border-bottom: none;
@@ -19,9 +19,20 @@ export default function ResumeTemplate({
   const { frontmatter, html } = markdownRemark
   return (
     <ResumeStyles className="container">
-      <div className="blog-post">
+      <div className="page">
         <h1>{frontmatter.title}</h1>
         <h2 className={`bottomless`}>Last Updated {frontmatter.date}</h2>
+        <p>
+          This is also available on{' '}
+          <a
+            href="https://www.github.com/coggro/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          .
+        </p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
