@@ -1,9 +1,11 @@
 import React from 'react'
+import SEO from '../components/SEO'
 
 export default function about() {
   return (
-    <div className="container">
-      <div className="page">
+    <>
+      <SEO title={`About`} />
+      <div className="container page">
         <h1>About Me</h1>
         <p>
           <strong>
@@ -55,6 +57,6 @@ export default function about() {
           with!
         </p>
       </div>
-    </div>
+    </>
   )
 }

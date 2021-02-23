@@ -32,6 +32,11 @@ const Typography = createGlobalStyle`
   h2 {
     font-size: 2rem;
     border-bottom: 2px solid var(--gold);
+      margin-bottom: 0.8rem;
+  
+      &.bottomless {
+        border-bottom: none;
+      }
   }
   h3 {
     font-size: 1.6rem;

@@ -19,8 +19,7 @@ export default function SEO({ children, location, description, title, image }) {
       <html lang="en" />
       <title>{title}</title>
       {/* Favicons */}
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <link rel="alternate icon" href="/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.png" />
       {/* Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
