@@ -17,6 +17,7 @@ const HeaderStyles = styled.header`
   background: var(--red);
   color: var(--white);
   font-size: 1.8rem;
+  position: fixed;
   width: 100%;
 
   .navbar {

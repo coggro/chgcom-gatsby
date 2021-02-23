@@ -10,6 +10,7 @@ const UsesPage = () => {
       <SEO title={`Uses`} />
       <UsesStyles>
         <div className="container">
+<<<<<<< Updated upstream
           <div className="page">
             <h1>Uses</h1>
             <p>
@@ -33,6 +34,47 @@ const UsesPage = () => {
             </p>
             <hr />
             <h2>Development Machines</h2>
+=======
+          <h1>Uses</h1>
+          <h2>
+            This is a list of stuff I use, inspired by{' '}
+            <a
+              href="https://wesbos.com/uses"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Wes Bos
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://uses.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Uses.tech
+            </a>
+            .
+          </h2>
+          <h3>Development Machines</h3>
+          <ul>
+            <li>Personal Laptop - MacBook Pro (Mid 2014)</li>
+            <li>Personal Desktop - Custom PC (Built Late 2016) </li>
+            <li>Professional Laptop - MacBook Pro (Much Newer)</li>
+          </ul>
+          <h3>Assorted Hardware</h3>
+          <ul>
+            <li>Ergodox EZ Ergonomic Mechanical Keyboard</li>
+            <li>Massdrop Alt Mechanical Keyboard</li>
+            <li>Logitech G604 Lightspeed Wireless Mouse</li>
+            <li>Anker Soundcore Life Q30 Over-Ear Headphones</li>
+            <li>Anker Soundcore Liberty Air 2 Pro Wireless Headphones</li>
+          </ul>
+          <h3>Software</h3>
+          <ul>
+            <li>Visual Studio Code</li>
+            <li>IntelliJ IDEA (Better for Java and AEM Builds)</li>
+            <li>iTerm 2 Terminal</li>
+>>>>>>> Stashed changes
             <ul>
               <li>Personal Laptop - MacBook Pro (Mid 2014)</li>
               <li>Personal Desktop - Custom PC (Built Late 2016) </li>
