@@ -14,16 +14,16 @@ import {
 } from 'react-icons/fa'
 
 const HeaderStyles = styled.header`
-  background: var(--red);
-  color: var(--white);
-  font-size: 1.8rem;
+  background: var(--darkred);
+  color: var(--ivory);
+  font-size: 1.125rem;
   width: 100%;
 
   .navbar {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 
     .logo {
       display: flex;
@@ -37,13 +37,13 @@ const HeaderStyles = styled.header`
       button {
         background: none;
         border: none;
-        height: 1.8rem;
+        height: 1.125rem;
       }
     }
 
     a {
-      color: var(--white);
-      padding-bottom: 1.5rem;
+      color: var(--ivory);
+      padding-bottom: 1rem;
 
       &:hover {
         color: var(--grey);
@@ -55,7 +55,7 @@ const HeaderStyles = styled.header`
       flex: 1;
       flex-direction: column;
       justify-content: flex-start;
-      padding-top: 1.5rem;
+      padding-top: 1rem;
 
       &.open {
         display: flex;
@@ -69,7 +69,7 @@ const HeaderStyles = styled.header`
         margin-left: 0;
 
         .icon {
-          margin-left: 0.75rem;
+          margin-left: 0.5rem;
         }
       }
     }
@@ -85,9 +85,9 @@ const HeaderStyles = styled.header`
         button {
           display: none;
           .icon {
-            color: var(--white);
-            fill: var(--white);
-            stroke: var(--white);
+            color: var(--ivory);
+            fill: var(--ivory);
+            stroke: var(--ivory);
           }
         }
       }
@@ -104,14 +104,14 @@ const HeaderStyles = styled.header`
         padding-top: 0;
 
         a {
-          margin-left: 2rem;
+          margin-left: 1.25rem;
         }
 
         .icons {
           margin-left: 0;
 
           .icon {
-            margin-left: 2rem;
+            margin-left: 1.25rem;
           }
         }
       }
@@ -123,7 +123,7 @@ export default function Header() {
   const [headerOpen, setHeaderOpen] = useState(false)
 
   return (
-    <IconContext.Provider value={{ color: `white` }}>
+    <IconContext.Provider value={{ color: `#FFFFF0` }}>
       <HeaderStyles>
         <div className="navbar container">
           <div className="logo">

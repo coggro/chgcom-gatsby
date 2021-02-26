@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
     --fontblack: #2E2E2E;
     --gold: #c9ad6a;
     --grey: #cfcfcf;
+    --ivory: #FFFFF0;
     --red: #9d0a0e;
     --white: #fff;
   }
@@ -58,7 +59,7 @@ const GlobalStyles = createGlobalStyle`
     background-image: url(${bg});
     box-shadow: 1rem 1rem 1rem var(--black);
     columns: 1;
-    padding: 2.5rem 4rem 4rem;
+    padding: 1.5rem 2.5rem 2.5rem;
     border-radius: 0.2rem;
     height: auto;    
   }

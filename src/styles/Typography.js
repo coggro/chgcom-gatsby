@@ -15,15 +15,15 @@ const Typography = createGlobalStyle`
   html {
     color: var(--fontblack);
     font-family: CrazyTome, Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
   }
   body {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   h1,h2,h3,h4,h5,h6 {
     color: var(--darkred);
     font-family: SirBranches, sans-serif;
-    margin: 0;
+    margin: 0 0 0.625rem 0;
   }
   h1 {
     font-size: 2.4rem;
@@ -31,16 +31,18 @@ const Typography = createGlobalStyle`
   }
   h2 {
     font-size: 2rem;
-    border-bottom: 2px solid var(--gold);
-      margin-bottom: 0.8rem;
-  
-      &.bottomless {
-        border-bottom: none;
-      }
   }
   h3 {
-    font-size: 1.6rem;
-    border-bottom: 2px solid var(--gold);
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1rem;
   }
   ul {
     padding-left: 1.5rem;
@@ -49,7 +51,7 @@ const Typography = createGlobalStyle`
     }
   }
   ul, li, p {
-    line-height: 2.2rem;
+    line-height: 1.375rem;
   }
   a {
     color: var(--fontblack);
@@ -70,12 +72,9 @@ const Typography = createGlobalStyle`
     text-decoration: underline;
     text-decoration-color: var(--red);
   }
-  p {
-    margin: 0;
-  }
   p,
   ul {
-    margin: 0 0 0.8rem 0;
+    margin: 0 0 0.5rem 0;
   }
   .text-center {
     text-align: center;

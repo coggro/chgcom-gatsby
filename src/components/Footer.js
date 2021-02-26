@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { Responsive } from '../styles/Responsive'
 
 const FooterStyles = styled.footer`
-  background-color: var(--red);
+  background-color: var(--darkred);
   box-sizing: border-box;
-  color: var(--white);
-  padding: 2rem 0;
+  color: var(--ivory);
+  padding: 1.25rem 0;
 
   .container {
     display: flex;
@@ -32,9 +32,9 @@ const FooterStyles = styled.footer`
   }
 
   a {
-    color: var(--white);
+    color: var(--ivory);
     text-decoration: underline;
-    text-decoration-color: var(--white);
+    text-decoration-color: var(--ivory);
 
     &:hover {
       color: var(--grey);
