@@ -25,8 +25,8 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vh;
 
     main {
+      display: flex;
       flex: 1;
-      padding: 4rem 0;
     }
   }
   .container {
@@ -59,9 +59,8 @@ const GlobalStyles = createGlobalStyle`
     background-image: url(${bg});
     box-shadow: 1rem 1rem 1rem var(--black);
     columns: 1;
-    padding: 1.5rem 2.5rem 2.5rem;
-    border-radius: 0.2rem;
-    height: auto;    
+    padding: 1.5rem 2.5rem;
+    height: 100%;
   }
 `
 

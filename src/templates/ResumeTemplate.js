@@ -3,7 +3,22 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import SEO from '../components/SEO'
 
-const ResumeStyles = styled.div``
+const ResumeStyles = styled.div`
+  h2 {
+    border-bottom: 2px solid var(--gold);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    &.bottomless {
+      border-bottom: none;
+      /* margin-bottom: 0; */
+      padding-bottom: 0;
+    }
+  }
+  .topDivider {
+    margin: 1rem 0;
+  }
+`
 
 export default function ResumeTemplate({
   data, // this prop will be injected by the GraphQL query below.
@@ -28,6 +43,7 @@ export default function ResumeTemplate({
             </a>
             .
           </p>
+          <hr className="gold topDivider" />
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

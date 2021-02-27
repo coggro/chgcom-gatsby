@@ -44,14 +44,18 @@ const Typography = createGlobalStyle`
   h6 {
     font-size: 1rem;
   }
+  p, li, ul {
+    line-height: 1.375rem;
+  }
+  p, ul {
+    margin: 0 0 0.5rem 0;
+  }
   ul {
     padding-left: 1.5rem;
     ul {
       padding-left: 1rem;
+      margin-bottom: 0;
     }
-  }
-  ul, li, p {
-    line-height: 1.375rem;
   }
   a {
     color: var(--fontblack);
@@ -72,9 +76,10 @@ const Typography = createGlobalStyle`
     text-decoration: underline;
     text-decoration-color: var(--red);
   }
-  p,
-  ul {
-    margin: 0 0 0.5rem 0;
+  hr {
+    &.gold {
+      color: var(--gold);
+    }
   }
   .text-center {
     text-align: center;

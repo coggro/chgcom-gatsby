@@ -47,6 +47,7 @@ const HeaderStyles = styled.header`
 
       &:hover {
         color: var(--grey);
+        text-decoration-color: var(--grey);
       }
     }
 
@@ -70,6 +71,16 @@ const HeaderStyles = styled.header`
 
         .icon {
           margin-left: 0.5rem;
+
+          .header-icons {
+            color: var(--ivory);
+            stroke: var(--ivory);
+
+            &:hover {
+              color: var(--grey);
+              stroke: var(--grey);
+            }
+          }
         }
       }
     }
@@ -123,7 +134,7 @@ export default function Header() {
   const [headerOpen, setHeaderOpen] = useState(false)
 
   return (
-    <IconContext.Provider value={{ color: `#FFFFF0` }}>
+    <IconContext.Provider value={{ className: `header-icons` }}>
       <HeaderStyles>
         <div className="navbar container">
           <div className="logo">
